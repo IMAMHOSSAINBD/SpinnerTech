@@ -1,0 +1,1832 @@
+/*--------------------------------*/
+/*-- Basic Setup-- */
+/*--------------------------------*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-gray,
+.bg-lightgray {
+    background-color: white;
+    border-bottom: 2px solid gray;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    margin: .4rem;
+}
+
+.bg-gray:hover,
+.bg-lightgray:hover {
+    border-bottom: 2px solid #1d9cd7;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    -webkit-box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px gray;
+}
+
+/*--------------------------------*/
+/*-- Reusable Componant-- */
+/*--------------------------------*/
+
+
+.logo-color {
+    color: #179AD6;
+}
+
+.title-div {
+    color: #1d9cd7;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    line-height: 1.2em;
+    display: inline-block;
+}
+
+.title-div::before {
+    border-bottom: 1px solid #1d9cd7;
+    content: "";
+    display: inline-block;
+    height: .65em;
+    margin: 0 -1px 0 -100%;
+    vertical-align: top;
+    width: 50%;
+
+}
+
+.title-div::after {
+    border-bottom: 1px solid #1d9cd7;
+    content: "";
+    display: inline-block;
+    height: .65em;
+    margin: 0 -100% 0 0;
+    vertical-align: top;
+    width: 50%;
+
+}
+
+.banner nav {
+    position: absolute;
+    background-color: transparent;
+    bottom: 1rem;
+    left: 10%;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+.breadcrumb a {
+    color: rgb(1, 143, 199);
+    text-decoration: none;
+}
+
+
+
+.banner .banner-title {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .banner .banner-title {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 1.5rem;
+        font-family: 'Montserrat', sans-serif;
+        position: absolute;
+        top: 40%;
+        width: 100%;
+    }
+}
+
+/*
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem 0;
+    position: relative;
+    display: inline-block;
+    top: 50%;
+}
+
+.separator-holder {
+    position: absolute;
+    display: block;
+    top: 49.99%;
+    width: 400px;
+    border-top: 2px solid red;
+    content: '';
+    border-color: #1EA4D9;
+}
+.separator-left {
+    right: 100%;
+    margin-right: 1em;
+}
+
+.separator-right {
+    left: 100%;
+    margin-left: 1em;
+}
+*/
+
+/*--------------------------------*/
+/*-- Style for Header Top-- */
+/*--------------------------------*/
+.header-top {
+    background: #353648;
+    border-top: 3px solid #1EA4D9;
+
+}
+
+.header-top i,
+.header-top a {
+    color: #FFFFFF;
+}
+
+.header-top i {
+    padding: 0 .5rem;
+}
+
+.header-top a,
+.header-top p {
+    font-size: 0.7rem;
+    color: white;
+}
+
+.header-top p {
+    padding-top: .25rem;
+    margin-bottom: 0;
+}
+
+/*
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+*/
+
+/*
+.dropdown-item:hover > .dropdown-menu {
+    display: block;
+}
+*/
+.dropdown-menu > li a:hover,
+.dropdown-menu > li.show {
+    background-color: #383844;
+
+}
+
+.header-bottom .bg-dark {
+    background: #232330 !important;
+}
+
+.header-bottom .navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF !important;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+    height: 43px;
+
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+    color: white !important;
+}
+
+
+.navbar {
+    padding: 0 1rem;
+}
+
+.dropdown {
+    border-left: 1px solid #232330;
+    border-right: 1px solid #232330;
+    border-top: 1px solid #232330;
+}
+
+
+.dropdown-menu .dropdown {
+    border: none;
+}
+
+.dropdown-menu .dropdown:hover {
+    border: none;
+}
+
+.dropdown:hover {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    background: #383844;
+}
+
+.dropdown-menu .dropdown-menu {
+    border-radius: 10px;
+}
+
+.dropdown-menu {
+    top: 98%;
+    border: 1px solid gray;
+    border-radius: 0;
+    background: #313345;
+    border-radius: 0 0 10px 10px;
+}
+
+
+
+.dropdown-menu a {
+    color: white;
+}
+
+.icon-top i {
+    font-size: 2em;
+}
+
+@media (max-width: 1199px) {
+    .header-bottom .navbar-dark .navbar-nav .nav-link {
+        font-size: .8rem;
+    }
+
+    .dropdown-menu a {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .multiple-dropdown-main {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex !important;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 370px) {
+    .header-top .mr-auto a {
+        display: block;
+    }
+
+    .header-top .col-md-4 p {
+        font-size: .5rem;
+    }
+
+    .header-top .icon-top div {
+        float: right !importantd;
+        display: block;
+    }
+
+}
+
+
+.body-section {
+    padding: 4rem 0;
+}
+
+/*--------------------------------*/
+/*-- Style for Carousel-- */
+/*--------------------------------*/
+
+.quota-btn {
+    background: #14a5ae;
+    color: #ffffff;
+    border: none;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    font-size: 1.5rem;
+}
+
+.quota-btn:hover {
+    background: #1e384a;
+}
+
+.buy-btn {
+    background: #ffffff;
+    color: #14a5ae;
+    border: none;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    font-size: 1.5rem;
+}
+
+.buy-btn:hover {
+    background: #1e384a;
+}
+
+.package-btn {
+    background: #1dd758;
+}
+
+.carousel-caption {
+    bottom: -15px;
+}
+
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 3%;
+}
+
+
+.Pricing-Submit-btn {
+    color: #1d9cd7;
+    background-color: white;
+    border: 1px solid #1d9cd7;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    text-transform: capitalize;
+}
+
+.Pricing-Submit-btn:hover {
+    color: white;
+    background-color: #1d9cd7;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+/*--------------------------------*/
+/*-- Style for Feature Section-- */
+/*--------------------------------*/
+
+.feature-hr {
+    margin: 0;
+    color: #bbe1f3;
+    padding: .05rem;
+
+}
+
+.feature-section {
+    background: white;
+    color: #1d9cd7;
+
+
+}
+
+.feature-section .feature-div {
+    padding: 2rem 0 0 0;
+    border-color: #1d9cd7 !important;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+.feature-section .feature-div:hover {
+    border-bottom: 1px solid #1dd758 !important;
+    color: #1dd758;
+    -webkit-box-shadow: 5px 5px 5px grey;
+    box-shadow: 5px 5px 5px grey;
+}
+
+
+/*--------------------------------*/
+/*-- Style for Who we are Section-- */
+/*--------------------------------*/
+.who-we-are {
+    background: white;
+    color: black;
+    padding: 2rem 0;
+}
+
+.who-we-are-div {
+
+    text-align: justify;
+    padding: 1rem;
+}
+
+.who-we-are-div::before {
+    transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    box-shadow: 0 15px 10px #999;
+    -moz-box-shadow: 0 15px 10px #999;
+    -webkit-box-shadow: 0 15px 10px #999;
+}
+
+.who-we-are-div a {
+    color: #fc6f03;
+}
+
+
+
+.bottom-icon {
+    display: inline-block;
+}
+
+
+
+.spinnerTech {
+    color: #1d9cd7 !important;
+}
+
+
+/*--------------------------------*/
+/*-- Style for Counselling Section-- */
+/*--------------------------------*/
+.Counselling-section {
+    padding: 2rem 0;
+}
+
+.input-group-text {
+    padding: 0.1rem .5rem;
+}
+
+.Counselling-section .counselling-form {
+    border: 1px solid lightgray;
+    padding: 1rem 0;
+
+}
+
+.Counselling-section form {
+    padding: 0 .5rem;
+}
+
+form .btn-submit {
+    border-bottom: 5px solid #0054ad;
+}
+
+
+/*--------------------------------*/
+/*--- Request Quote Form ---- */
+/*--------------------------------*/
+
+
+.quote-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/softwares/project-request-banner.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/softwares/project-request-banner.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+.quote-form form .btn-submit {
+    border-bottom: 5px solid #0054ad;
+}
+
+
+.quote-form .col-md-6,
+.quote-form .col-md-12 {
+    margin-top: 1rem;
+}
+
+/*--------------------------------*/
+/*-- Style for Course Section-- */
+/*--------------------------------*/
+
+
+.course-section {
+    padding: 4rem 0;
+}
+
+.tabs li {
+    text-align: center;
+    width: 170px;
+    border: 1px solid #ddd;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: #1dd758;
+
+}
+
+.nav-pills .nav-link {
+    border-radius: 0;
+    padding: 1rem;
+}
+
+.nav-link:hover {
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    color: blue;
+}
+
+.nav-link p {
+    margin-bottom: 1rem;
+}
+
+.tabs .link a {
+    background: #082e40;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: .5rem;
+    font-weight: bold;
+}
+
+
+.phils-des h4 {
+    color: #d75b1d;
+}
+
+.phils-des p {
+    font-size: 1rem;
+    text-align: justify;
+
+}
+
+.course-des {
+    -webkit-box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    padding: 2rem;
+    text-align: center;
+    margin: 1rem;
+    border-top: 2px solid #1d9cd7;
+    border-radius: 5px;
+}
+
+.nav-link {
+    color: #1d9cd7;
+}
+
+.service-left {
+    padding-top: 2rem;
+}
+
+@media (max-width: 381px) {
+    .course-section .tabs li {
+        width: 100%;
+    }
+
+}
+
+
+/*--------------------------------*/
+/*-- Style for Typed Section-- */
+/*--------------------------------*/
+
+.typed-section {
+    background: #1d9cd7;
+    padding: 2rem 0;
+}
+
+.typeOne,
+.typeTwo {
+    font-weight: bold;
+    color: #2afc7e;
+}
+
+/*--------------------------------*/
+/*-- Style for Innovative Section-- */
+/*--------------------------------*/
+
+.innovative-section {
+    background-image: url(../img/innovative-bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 2rem 0;
+    background-size: cover;
+    width: 100%;
+}
+
+
+/*--------------------------------*/
+/*-- Style for App Section-- */
+/*--------------------------------*/
+
+.app-section {
+    background-image: url(../img/app-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem 0 1rem 0;
+    background-size: cover;
+    width: 100%;
+}
+
+.app-icon {
+    margin: auto;
+    padding: .5rem 0;
+}
+
+
+
+.small-p {
+    font-size: .9rem;
+
+}
+
+.app-icon .app-icon-link h6 {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #1dd758;
+    padding: .5rem 0;
+
+}
+
+
+.app-icon-link {
+    padding: 1rem 0;
+}
+
+.app-icon-link a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.app-icon-link a h6,
+.app-icon-link a p {
+    color: black;
+}
+
+.app-icon-link i {
+    text-align: center;
+    vertical-align: middle;
+    color: #1EA4D9;
+}
+
+.app-icon-link:hover i {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+.app-icon-link .btn-sm {
+    margin-top: .5rem;
+}
+
+
+/*--------------------------------*/
+/*-- Style for Business Need Section-- */
+/*--------------------------------*/
+
+.business-need {
+    padding: 4rem;
+}
+
+
+
+.business-need .nav-link {
+    padding: .4rem;
+    border: 1px solid gray;
+    margin: 0 .2rem;
+    border-radius: 10px;
+}
+
+.business-tab-Content .tab-pane {
+    padding: 1rem;
+    color: white;
+}
+
+.business-tab-Content .tab-pane:nth-child(1) {
+    background: #4866B1;
+
+}
+
+.business-tab-Content .tab-pane:nth-child(2) {
+    background: #1E8BC3;
+}
+
+.business-tab-Content .tab-pane:nth-child(3) {
+    background: #128CDB;
+}
+
+.business-tab-Content .tab-pane:nth-child(4) {
+    background: #297D97;
+}
+
+.business-tab-Content .tab-pane:nth-child(5) {
+    background: #1268af;
+}
+
+.business-tab-Content .tab-pane:nth-child(6) {
+    background: #FB503B;
+}
+
+.business-tab-Content .tab-pane:nth-child(7) {
+    background: #0d0a27;
+}
+
+.business-tab-Content .tab-pane:nth-child(8) {
+    background: #6D8A12;
+}
+
+.business-tab-Content .tab-pane:nth-child(9) {
+    background: #4B4747;
+}
+
+.business-tab-Content .tab-pane:nth-child(10) {
+    background: #9B5592;
+}
+
+
+.business-tab-Content .row h6 {
+    font-size: .8rem;
+}
+
+.business-tab-Content .row ul {
+    margin-bottom: 0;
+
+}
+
+.business-tab-Content .row ul li {
+    font-size: 0.6rem;
+    padding: .2rem 0;
+}
+
+.business-need li.nav-item {
+    margin-top: .5rem;
+}
+
+@media (max-width: 381px) {
+    .business-need li.nav-item {
+        width: 100%;
+    }
+
+}
+
+/*--------------------------------*/
+/*-- Style for Steps five Section-- */
+/*--------------------------------*/
+.steps5 {
+    background-image: url(../img/steps-five-bg.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding: 2rem 0 1rem 0;
+    background-size: cover;
+    width: 100%;
+}
+
+.steps5 .steps-five-img {
+    width: 80%;
+    margin: auto;
+
+}
+
+
+
+/*--------------------------------*/
+/*-- Style for Web Approach Section-- */
+/*--------------------------------*/
+
+.web-approach {
+    padding: 2rem 0;
+    background-image: url(../img/portfolio-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    padding: 2rem 0 1rem 0;
+    background-size: cover;
+    width: 100%;
+}
+
+
+/*--------------------------------*/
+/*-- Style for Web Approach Section-- */
+/*--------------------------------*/
+
+.portfolio {
+    padding: 2rem 0;
+
+}
+
+.portfolio .box-wrap a {
+    color: black;
+}
+
+.portfolio .imageBox {
+    border-radius: 10px;
+    -webkit-box-shadow: 0 20px 25px rgba(0, 0, 0, .5);
+    box-shadow: 0 20px 25px rgba(0, 0, 0, .5);
+    overflow: hidden;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+
+}
+
+.portfolio .imageBox img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: .5s;
+    transition: .5s;
+
+}
+
+.portfolio .imageBox .imgText {
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.51);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: .5rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.portfolio .imageBox:hover .imgText {
+    bottom: -65%;
+
+}
+
+.portfolio .imageBox:hover img {
+    -webkit-transform: translateY(-350%);
+    transform: translateY(-35%);
+}
+
+
+
+/*--------------------------------*/
+/*-- Style for Leader Section-- */
+/*--------------------------------*/
+.leader-section {
+    padding: 4rem 0;
+
+}
+
+.leader-section .item {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #1EA4D9;
+    padding: 2rem;
+}
+
+/*--------------------------------*/
+/*-- Style for Partner Section-- */
+/*--------------------------------*/
+
+.partner-section {
+    padding: 4rem 0;
+}
+
+.partner-section .item {
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.partner-section .partner-carousel {
+    -webkit-box-shadow: 0px 0px 20px rgba(221, 221, 221, 0.59);
+    box-shadow: 0px 0px 20px rgba(221, 221, 221, 0.59);
+}
+
+/*--------------------------------*/
+/*-- Style for Partner Section-- */
+/*--------------------------------*/
+
+.client-section {
+    padding: 4rem 0;
+
+}
+
+.client-section .client-carousel {
+    -webkit-box-shadow: 0px 0px 20px rgba(221, 221, 221, 0.59);
+    box-shadow: 0px 0px 20px rgba(221, 221, 221, 0.59);
+}
+
+
+.client-section .item {
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+}
+
+
+/*--------------------------------*/
+/*-- Style for Footer Section-- */
+/*--------------------------------*/
+
+
+.footer-section {
+    background: #353648;
+    font-size: .8rem;
+    color: white;
+    padding: 1.5rem 0 1rem 0;
+    border-bottom: 3px solid #1EA4D9;
+
+}
+
+.footer-section ul li {
+    padding: .3rem 0;
+
+}
+
+.footer-section ul li:hover a {
+    color: #24ff5e !important;
+    text-decoration: none;
+}
+
+.footer-section ul li a {
+    color: white;
+}
+
+.brand-info {
+    text-align: justify;
+    color: white;
+}
+
+.footer-title {
+    color: #1EA4D9;
+}
+
+.copyright {
+    background: #232330;
+    color: white;
+    padding: 1rem 0;
+}
+
+.copyright p {
+    font-size: .8rem;
+    margin-bottom: 0;
+}
+
+.copyright p a {
+    text-decoration: none;
+}
+
+.link a {
+    color: white;
+    padding: 0 .5rem;
+}
+
+.link i {
+    font-size: 2em;
+}
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------*/
+/*-- Company Menu ---- */
+/*--------------------------------*/
+
+/*--------------------------------*/
+/*--- About Page ---- */
+/*--------------------------------*/
+
+.who-we-are-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/company/about-us-banner.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/company/about-us-banner.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+
+}
+
+/*--------------------------------*/
+/*--- Our Values Page ---- */
+/*--------------------------------*/
+
+
+.our-values-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/company/our-values.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/company/our-values.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+.our-vision-div {
+
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(85, 239, 196, 0.4)), to(rgba(232, 67, 147, 0.4))), url(../img/company/our-vision-bg.png);
+
+    background: linear-gradient(rgba(85, 239, 196, 0.4), rgba(232, 67, 147, 0.4)), url(../img/company/our-vision-bg.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 40%;
+    border-top: 2px solid black;
+    color: rgb(223, 230, 233);
+    padding: 2rem 0;
+
+
+}
+
+.our-vision-div p {
+    font-size: 1.7rem;
+
+}
+
+.our-mission {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(116, 185, 255, 0.4)), to(rgba(46, 204, 113, 0.4))), url(../img/company/our-mission-bg.jpg);
+    background: linear-gradient(rgba(116, 185, 255, 0.4), rgba(46, 204, 113, 0.4)), url(../img/company/our-mission-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 40%;
+    border-top: 2px solid black;
+    color: black;
+    padding: 2rem 0;
+}
+
+.our-mission ul li {
+    font-size: 1.4rem;
+}
+
+.values-card {
+    border: 1px solid rgb(99, 110, 114);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(178, 190, 195, 0.5);
+}
+
+.values-img {
+
+    border-radius: 50%;
+    border: 1px solid rgb(99, 110, 114);
+    -webkit-box-shadow: 1px 1px 6px 2px gray;
+    box-shadow: 1px 1px 6px 2px gray;
+
+
+}
+
+.values-spinner-tech {
+    background-image: url(../img/company/values-spinner-tech.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 40%;
+    border-top: 2px solid black;
+    padding: 2rem 0;
+}
+
+
+.values-spinner-tech .col-md-4:nth-child(2) .values-card {
+    padding: 2rem 2rem .5rem 2rem;
+}
+
+.values-spinner-tech .col-md-4:nth-child(3) .values-card {
+    padding: 3.5rem 2rem;
+}
+
+.values-spinner-tech .col-md-4:nth-child(4) .values-card {
+    padding: 2rem 2rem 4rem 2rem;
+}
+
+
+.values-spinner-tech .col-md-4:nth-child(5) .values-card {
+    padding: 2rem 2rem 0 2rem;
+}
+
+.values-spinner-tech .col-md-4:nth-child(6) .values-card {
+    padding: 2rem 2rem 3rem 2rem;
+}
+
+
+/*--------------------------------*/
+/*--- Our Member Page ---- */
+/*--------------------------------*/
+
+.our-member-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/company/our-member-banner.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/company/our-member-banner.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+.agent {
+    padding: 2rem 0;
+}
+
+.agent .agent-wrapper {
+    border: 1px solid lightgray;
+    border-radius: 10px 0 10px 0;
+    background: #dfe6e9;
+    padding: 1rem;
+}
+
+.agent .agent-wrapper ul li {
+    padding: .3rem 0;
+    color: #1EA4D9;
+}
+
+.agent .col-md-4:nth-child(2) .agent-wrapper ul li {
+    padding: .15rem 0;
+}
+
+@media (max-width: 768px) {
+    .agent-wrapper ul li {
+        font-size: .7rem;
+    }
+
+}
+
+/*--------------------------------*/
+/*--- Our Process Page ---- */
+/*--------------------------------*/
+
+.services__content--info-text {
+    /* border: 1px solid grey; */
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    border-top: 2px solid rgb(0, 97, 153);
+    padding: 1.3rem;
+}
+
+.services__content--info-text p {
+    text-align: justify;
+}
+
+.services__button a {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.services__button a:hover {
+    background: rgb(0, 97, 153);
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+
+.process__step ul li i {
+    padding-right: .5rem;
+    color: green;
+}
+
+/*--------------------------------*/
+/*--- Event Page ---- */
+/*--------------------------------*/
+
+
+
+.event-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/company/event-bg.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/company/event-bg.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+.gallery-container {
+    padding: 2rem 0;
+}
+
+.tz-gallery img {
+    padding: .5rem 0;
+}
+
+
+/*--------------------------------*/
+/*--- Infrastructure Page ---- */
+/*--------------------------------*/
+
+
+
+.Infrastructure-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/company/Infrastructure-banner-bg.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/company/Infrastructure-banner-bg.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+
+.infrastructure-body {
+    padding: 2rem 0;
+    background: url(../img/company/infrastructure-body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 8rem;
+
+}
+
+@media (max-width: 767px) {
+    .bottom-section-infrastructure {
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .bottom-section-infrastructure {
+        margin-bottom: 4rem;
+    }
+
+}
+
+/*--------------------------------*/
+/*--- Our Skills Page ---- */
+/*--------------------------------*/
+
+
+.skills-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/company/our-skills.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/company/our-skills.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+.skills-body {
+    padding: 10rem 0;
+    background: -webkit-gradient url(../img/company/skills-body.jpg);
+    background: url(../img/company/skills-body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+}
+
+
+.skills-title {
+    color: white;
+    background: darkgray;
+    padding: .5rem;
+}
+
+.col-md-8 p {
+    padding-bottom: 1.5rem;
+}
+
+
+
+.menu--links {
+    margin-bottom: 3rem;
+}
+
+.menu--links .menu__content {
+    border: 1px solid rgb(221, 221, 221);
+
+}
+
+.menu--links .menu__content p a:link,
+.menu--links .menu__content p a:visited {
+    text-decoration: none;
+
+}
+
+.menu--links .menu__content p:not(:last-child) {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.menu--links .menu__content p {
+    padding: 1rem .5rem 1rem .5rem;
+    margin: 0;
+    cursor: pointer;
+
+}
+
+.menu--links .menu__content p:first-child {
+    background-color: rgb(1, 143, 199);
+}
+
+.menu--links .menu__content p:first-child a {
+    color: rgb(241, 241, 241);
+}
+
+.menu--links .menu__content p span {
+    margin-right: 0.5rem;
+    font-weight: 50;
+
+    font-size: 0.8rem;
+}
+
+.menu--links .menu__content p a {
+    color: rgb(59, 59, 59);
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-rendering: auto;
+    transition: ease-in .6s;
+    -webkit-transition: ease-in .6s;
+    -moz-transition: ease-in .6s;
+    -ms-transition: ease-in .6s;
+    -o-transition: ease-in .6s;
+}
+
+.menu--links .menu__content p:hover a {
+    font-size: .9rem;
+}
+
+
+@media (max-width: 768px) {
+    .skills-body .row {
+        padding: 6rem 0;
+    }
+}
+
+
+/*--------------------------------*/
+/*--- Payment System Page ---- */
+/*--------------------------------*/
+
+.payment-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/company/payment-system.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/company/payment-system.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+.payment-body {
+    padding: 4rem 0;
+}
+
+
+.payment-body .col-md-8 h5 {
+    border: 1px solid #1EA4D9;
+    padding: .5rem;
+    font-weight: bold;
+    border-radius: 15px 0 15px 0;
+    background: #f5f5f5;
+}
+
+.payment-body .col-md-8 p,
+.payment-body .col-md-8 img {
+    padding: 1rem 0;
+}
+
+/*--------------------------------*/
+/*--- Software Development / SEO Team Page ---- */
+/*--------------------------------*/
+.chairmen-message {
+    padding: 4rem 0;
+    background: #d9a7c7;
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, from(#fffcdc), to(#d9a7c7));
+    background: linear-gradient(to right, #fffcdc, #d9a7c7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.md-message {
+    padding: 4rem 0;
+    background: #fffcdc;
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, from(#d9a7c7), to(#fffcdc));
+    background: linear-gradient(to right, #d9a7c7, #fffcdc);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.team {
+    padding: 4rem 0;
+    background: #FFAFBD;
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, from(#ffc3a0), to(#FFAFBD));
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.team .img-div .photo {
+    border-radius: 100%;
+    padding: 1rem;
+    width: 90%;
+    height: 50%;
+}
+
+.team .wrapper {
+    border: 1px solid red;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 10px gray;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.team .wrapper .img-div {
+    background: #11998e;
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, from(#38ef7d), to(#11998e));
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+.team .wrapper .body-div {
+    background: #2980B9;
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), color-stop(#6DD5FA), to(#2980B9));
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 1rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/*--------------------------------*/
+/*--- Happy Client Page ---- */
+/*--------------------------------*/
+
+
+.happy-client-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/company/happy-clients.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/company/happy-clients.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+
+/*--------------------------------*/
+/*--- Our Process Page ---- */
+/*--------------------------------*/
+
+
+.process-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/company/our-process.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/company/our-process.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+
+/*--------------------------------*/
+/*--- Company Profile Page ---- */
+/*--------------------------------*/
+
+
+.profile-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/company/company-profile.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/company/company-profile.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+@media (max-width: 354px) {
+
+    .profile-content .table td,
+    .table th {
+        padding: .2rem;
+    }
+}
+
+/*--------------------------------*/
+/*--- Join The Team Page ---- */
+/*--------------------------------*/
+
+
+.join-team-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/company/join-team.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/company/join-team.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+.join-team .job-wrapper {
+    border-radius: 10px;
+    border-top: 2px solid rgb(1, 143, 199);
+    padding: .5rem;
+    margin: 1rem .5rem;
+    background: #dcdde1;
+
+}
+
+.join-team .job-wrapper .job-info {
+    position: relative;
+}
+
+.join-team .job-info::before,
+.join-team .job-info::after {
+    position: absolute;
+    content: '';
+    bottom: 12px;
+    left: 15px;
+    top: 80%;
+    width: 70%;
+    background: gray;
+    z-index: -1;
+    -webkit-box-shadow: 0 20px 15px gray;
+    box-shadow: 0 20px 15px gray;
+    -webkit-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+}
+
+.join-team .job-info::after {
+    -webkit-transform: rotate(6deg);
+    transform: rotate(6deg);
+    right: 15px;
+    left: auto;
+}
+
+.join-team ul li {
+    padding: .4rem 0;
+}
+
+
+
+/*--------------------------------------------------------------------*/
+
+/*--------------------------------*/
+/*-- Contact Page ---- */
+/*--------------------------------*/
+
+.contact-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/contact-us.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/contact-us.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    padding-bottom: 8rem;
+
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    border: none;
+    background: rgb(1, 143, 199);
+    color: white;
+
+
+}
+
+.contact-body .nav-tabs .nav-item .nav-link {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem;
+}
+
+.nav-tabs {
+    -webkit-box-shadow: 5px 5px 10px gray;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.nav-link {
+    margin: auto;
+
+}
+
+.nav-link:hover {
+    color: #1dd758;
+}
+
+.contact-icon {
+    margin-bottom: 1rem;
+}
+
+.contact-icon a {
+    padding: .5rem;
+    border-radius: 100%;
+    text-align: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-block;
+    background: #1dd758;
+    color: white;
+}
+
+@media (max-width: 1199px) {
+    .contact-body .nav-tabs .nav-item .nav-link {
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-body .nav-tabs {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+
+
+/*--------------------------------------------------------------------*/
+/*--------------------------------*/
+/*-- Softwares Menu ---- */
+/*--------------------------------*/
+
+/*--------------------------------*/
+/*--- Accounting Page ---- */
+/*--------------------------------*/
+
+.submenu-div {
+    -webkit-box-shadow: 2px 2px lightgray;
+    box-shadow: 2px 2px lightgray;
+    background: #dfe6e9;
+    padding-top: 1rem;
+}
+
+.submenu-div a {
+    text-decoration: none;
+}
+
+.submenu-div .card-body {
+    padding: .5rem;
+}
+
+.submenu-div .card-body h5 a {
+    text-transform: uppercase;
+    color: rgb(1, 143, 199);
+    font-weight: bold;
+}
+
+.submenu-div .card-img {
+    padding: 1.5rem .5rem;
+}
+
+.soft-link {
+    background-color: #b2bec3;
+    padding: .5rem;
+    width: 100%;
+    border-top: 2px solid rgb(1, 143, 199);
+}
+
+
+.soft-link ul li {
+    padding: .5rem;
+    background: white;
+    display: inline-block;
+    border-radius: 5px;
+    margin: .5rem .3rem;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+
+}
+
+.soft-link ul li a {
+    color: #1dd758;
+    font-weight: bold;
+}
+
+.soft-link ul li:hover {
+    background-color: #1dd758;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+.soft-link ul li:hover a {
+    color: white;
+}
+
+
+/*--------------------------------*/
+/*--- Accounting Feature Page ---- */
+/*--------------------------------*/
+
+.featured-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/softwares/featured-benifit.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/softwares/featured-benifit.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    padding-bottom: 8rem;
+
+}
+
+.featured-body .col-md-9 ul li,
+.featured-body .col-md-9 ol li {
+    padding: .4rem 0;
+    padding-left: 1rem;
+}
+
+.feature-title {
+    border-bottom: 2px solid rgb(1, 143, 199) !important;
+    font-weight: bold;
+
+}
+
+.check-icon {
+    display: inline-block;
+    width: 12px;
+    height: 14px;
+    margin-right: 5px;
+    margin-left: -27px;
+}
+
+.mlm-feature i {
+    background-color: #1dd758;
+    border-radius: 50%;
+    padding: 1rem;
+    color: white;
+}
+
+.mlm-feature {
+    border: 1px solid rgb(1, 143, 199);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.mlm-feature h5::after {
+    content: '';
+    width: 3rem;
+    height: .2rem;
+    background-color: rgb(1, 143, 199);
+    display: block;
+    margin: auto;
+    margin-top: .3rem;
+
+}
