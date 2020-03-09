@@ -276,6 +276,24 @@ body {
         -ms-flex-direction: column;
         flex-direction: column;
     }
+
+    .header-top .col-md-4:nth-child(1),
+    .header-top .col-md-4:nth-child(3) {
+        text-align: center;
+        margin-top: .5rem;
+    }
+
+    .float-right {
+        float: none !important;
+
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+
+
 }
 
 @media (max-width: 370px) {
@@ -752,12 +770,39 @@ form .btn-submit {
     margin-top: .5rem;
 }
 
+
+@media (max-width: 768px) {
+
+    .business-need .nav {
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        padding-left: none;
+
+    }
+
+    .business-need .nav .nav-item {
+        width: 100%;
+    }
+
+    .business-need .business-tab-Content h6 {
+        font-size: 1rem !important;
+    }
+
+    .business-need .business-tab-Content ul li {
+        font-size: 1rem !important;
+    }
+
+
+}
+
 @media (max-width: 381px) {
     .business-need li.nav-item {
         width: 100%;
     }
 
 }
+
 
 /*--------------------------------*/
 /*-- Style for Steps five Section-- */
