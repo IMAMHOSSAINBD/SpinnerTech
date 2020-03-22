@@ -288,6 +288,10 @@ body {
 
     }
 
+    .header-top .float-right i {
+        font-size: 2em;
+    }
+
     .sidebar {
         display: none;
     }
@@ -1006,6 +1010,8 @@ form .btn-submit {
     text-decoration: none;
 }
 
+
+
 .link a {
     color: white;
     padding: 0 .5rem;
@@ -1013,6 +1019,14 @@ form .btn-submit {
 
 .link i {
     font-size: 2em;
+
+}
+
+@media (max-width: 767px) {
+    .link {
+        text-align: center;
+    }
+
 }
 
 /*--------------------------------------------------------------------*/
