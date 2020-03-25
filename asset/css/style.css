@@ -1889,3 +1889,1442 @@ form .btn-submit {
     margin-top: .3rem;
 
 }
+
+/* ================================================================================= Services Page ====================================================*/
+
+
+/*---------------------------------------------*/
+/*--------- SERVICES-- WEBSITE DESIGN -------- */
+/*---------------------------------------------*/
+
+
+.ai-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/service/ai.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/service/ai.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+
+
+
+.banking-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/service/banking.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/service/banking.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+.cctv-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/service/cctv.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/service/cctv.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+
+.custom-soft-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/service/web-design-dev.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/service/web-design-dev.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+
+
+.ecommerce-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/service/ecommerce-woocommerce.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/service/ecommerce-woocommerce.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+.erp-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/service/erp-solution.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/service/erp-solution.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+
+.graphics-design-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/service/graphics-design.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/service/graphics-design.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+
+.mobile-app-dev-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/service/mobile-app.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/service/mobile-app.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+
+
+.ux-ui-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/service/ux-ui.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/service/ux-ui.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+.portfolio-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/service/portfolio.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/service/portfolio.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+
+.seo-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/service/seo.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/service/seo.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+.web-app-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/service/desktop-app-dev.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/service/desktop-app-dev.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+
+.web-design-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/service/web-design-dev.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/service/web-design-dev.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+
+.web-main-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/service/desktop-app-dev.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/service/desktop-app-dev.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+.wordpress-theme-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/service/theme-dev.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/service/theme-dev.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+
+.services--section .services__name {
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.services--section .services__name h3 {
+    color: rgb(94, 94, 94);
+}
+
+.services--section .services__content-box {
+    margin-top: 4rem;
+
+}
+
+.services--section .services__content-box .menu--links {
+    margin-bottom: 3rem;
+}
+
+.services--section .services__content-box .menu--links .menu__content {
+    border: 1px solid rgb(221, 221, 221);
+
+}
+
+.services--section .services__content-box .menu--links .menu__content p a:link,
+.services--section .services__content-box .menu--links .menu__content p a:visited {
+    text-decoration: none;
+
+}
+
+.services--section .services__content-box .menu--links .menu__content p:not(:last-child) {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.services--section .services__content-box .menu--links .menu__content p {
+    padding: 1rem .5rem 1rem .5rem;
+    margin: 0;
+    cursor: pointer;
+
+}
+
+.services--section .services__content-box .menu--links .menu__content p:first-child {
+    background-color: rgb(1, 143, 199);
+}
+
+.services--section .services__content-box .menu--links .menu__content p:first-child a {
+    color: rgb(241, 241, 241);
+}
+
+.services--section .services__content-box .menu--links .menu__content p span {
+    margin-right: 0.5rem;
+    font-weight: 50;
+
+    font-size: 0.8rem;
+}
+
+.services--section .services__content-box .menu--links .menu__content p a {
+    color: rgb(59, 59, 59);
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-rendering: auto;
+    transition: ease-in .6s;
+    -webkit-transition: ease-in .6s;
+    -moz-transition: ease-in .6s;
+    -ms-transition: ease-in .6s;
+    -o-transition: ease-in .6s;
+}
+
+.services--section .services__content-box .menu--links .menu__content p:hover a {
+    font-size: .9rem;
+}
+
+.services--section .services__content-box .services__content--info-text {
+    /* border: 1px solid grey; */
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .4);
+    border-top: 2px solid rgb(0, 97, 153);
+    padding: 1.3rem;
+}
+
+.services--section .services__content-box .services__content--info-text p {
+    text-align: justify;
+}
+
+.services--section .services__content-box .services__content--info-text .need-quote .need-quote-content a:link,
+.services--section .services__content-box .services__content--info-text .need-quote .need-quote-content a:visited {
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+
+}
+
+.services--section .services__content-box .services__content--info-text .need-quote .need-quote-content span {
+    background-color: rgb(228, 48, 48);
+    padding: .5rem 1.2rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.services--section .services__content-box .services__content--info-text .need-quote .need-quote-content span:hover {
+    background-color: rgb(180, 15, 15);
+
+}
+
+.services--section .services__sub-main {
+    margin-top: 5rem;
+}
+
+.services--section .services__sub-main .row {
+    margin-bottom: 5rem;
+}
+
+.services--section .services__sub-main .services__sub-content {
+    transition: all .6s;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+}
+
+.services--section .services__sub-main .services__sub-content:hover {
+    -webkit-box-shadow: 0 0 10px 1px #c4c4c4;
+    box-shadow: 0 0 10px 1px #c4c4c4;
+    padding-bottom: .6rem;
+    transform: translateY(-1.5rem);
+    -webkit-transform: translateY(-1.5rem);
+    -moz-transform: translateY(-1.5rem);
+    -ms-transform: translateY(-1.5rem);
+    -o-transform: translateY(-1.5rem);
+}
+
+.services--section .services__sub-main .services__sub-content:hover .services__price--tag span {
+    color: rgb(11, 196, 42);
+}
+
+.services--section .services__sub-main .services__sub-content h4 {
+    background-color: rgb(0, 97, 153);
+    padding: 1.5rem 2rem;
+    font-size: 2.9rem;
+    font-weight: bold;
+    color: rgb(241, 241, 241);
+    text-align: center;
+}
+
+.services--section .services__sub-main .services__sub-content .services__price--tag {
+    text-align: center;
+    color: grey;
+}
+
+.services--section .services__sub-main .services__sub-content .services__price--tag span:first-child {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-right: .8rem;
+}
+
+.services--section .services__sub-main .services__sub-content .services__price--tag span:last-child {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.services--section .services__sub-main ul li {
+    list-style: none;
+    margin-bottom: .9rem;
+    color: grey;
+    font-size: .9rem;
+    line-height: 2rem;
+    padding-left: 1rem;
+    padding-right: .5rem;
+}
+
+.services--section .services__sub-main ul li span {
+    margin-right: .8rem;
+    font-size: .9rem;
+    color: rgb(1, 143, 199);
+}
+
+.services--section .services__sub-main .services__sub-content .order__button {
+    text-align: center;
+}
+
+.services--section .services__sub-main .services__sub-content .order__button a {
+    background-color: rgb(190, 13, 13);
+    color: white;
+    padding: .5rem;
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+}
+
+.services--section .services__sub-main .services__sub-content .order__button a:link,
+.services--section .services__sub-main .services__sub-content .order__button a:visited {
+    text-decoration: none;
+}
+
+.services--section .services__sub-main .services__sub-content .order__button a span {
+    margin-right: .4rem;
+}
+
+.services--section .services__sub-main .services__sub-content .order__button a:hover {
+    background-color: rgb(228, 48, 48);
+}
+
+
+.services--section .services__content-box .custom_services__sub-main {
+    margin-top: 4rem;
+}
+
+.services--section .services__content-box .custom_services__sub-main table tr th,
+.services--section .services__content-box .custom_services__sub-main table tr td {
+    text-align: center;
+    color: rgb(117, 117, 117);
+}
+
+.services--section .services__content-box .custom_services__sub-main table thead th:not(:first-child) {
+    font-size: 1.5rem;
+    background-color: rgb(0, 97, 153);
+    color: rgb(233, 233, 233);
+    padding: 3rem 0;
+}
+
+.services--section .services__content-box .custom_services__sub-main table tr td .fa-check {
+    color: rgb(28, 153, 224);
+}
+
+.services--section .services__content-box .custom_services__sub-main table tr td .fa-times {
+    color: red;
+}
+
+.services--section .services__content-box .custom_services__sub-main table tbody tr:first-child td:first-child {
+    font-size: 2.4rem;
+}
+
+.services--section .services__content-box .custom_services__sub-main table {
+    border: 1px solid red;
+}
+
+
+@media only screen and (max-widht: 767px) {
+    .services--section .services__content-box .custom_services__sub-main table thead th:not(:first-child) {
+        font-size: 0.8rem;
+    }
+
+    .services--section .services__content-box .custom_services__sub-main table tbody tr:first-child td:first-child {
+        font-size: 1.2rem;
+    }
+
+}
+
+.services--section .services__content-box .custom_services__sub-main table tbody tr:last-child td p a:link,
+.services--section .services__content-box .custom_services__sub-main table tbody tr:last-child td p a:visited {
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+}
+
+.services--section .services__content-box .custom_services__sub-main table tbody tr:last-child td p {
+    background-color: rgb(0, 97, 153);
+    padding: .5rem 1rem;
+}
+
+.services--section .services__content-box .custom_services__sub-main table tbody tr:last-child td p span {
+    margin-right: .5rem;
+}
+
+
+
+.services--section .services__button {
+    margin-top: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.services--section .services__button a:link,
+.services--section .services__button a:visited {
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.services--section .services__button p {
+    background-color: rgb(0, 97, 153);
+    padding: .5rem 3rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.services--section .services__button p span {
+    margin-right: .5rem;
+}
+
+.services--section .services__content-box .services__content-maintain {
+    padding-top: 4rem;
+}
+
+.services--section .services__content-box .services__content-maintain .maintain-content-follow {
+    font-size: 1.5rem;
+    color: grey;
+
+}
+
+.services--section .services__content-box .services__content-maintain .card-deck {
+    margin-bottom: 2rem;
+}
+
+.services--section .services__content-box .services__content-maintain .card-deck .card-body .card-title {
+    font-size: 1.9rem;
+    color: grey;
+}
+
+.services--section .services__content-box .services__content-maintain .card-deck .card-body .card-text {
+    word-spacing: .1rem;
+    color: grey;
+}
+
+.services--section .services__content-box .services__content-maintain .card-deck .card-body ul li {
+    list-style: none;
+    color: grey;
+}
+
+.services--section .services__content-box .services__content-maintain .card-deck .card-body ul li span {
+    margin-right: .3rem;
+    color: rgb(28, 153, 224);
+}
+
+.services--section .services__content-box .services__content-maintain .card-deck .card-footer p {
+    text-align: center;
+    background-color: rgb(28, 153, 224);
+    padding: .5rem 2rem;
+    font-weight: bold;
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+}
+
+.services--section .services__content-box .services__content-maintain .card-deck .card-footer p:hover {
+    background-color: rgb(28, 103, 146);
+}
+
+.services--section .services__content-box .services__content-maintain .card-deck .card-footer a:link,
+.services--section .services__content-box .services__content-maintain .card-deck .card-footer a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.services--section .services__content-box .design--process {
+    margin-top: 3rem;
+}
+
+.services--section .services__content-box .design--process .process_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+.services--section .services__content-box .design--process .process__content h5 {
+    font-size: 1.4rem;
+    color: rgb(26, 26, 26);
+}
+
+.services--section .services__content-box .design--process .process__content p {
+    color: rgb(105, 105, 105);
+}
+
+.services--section .services__content-box .design--process .process__step {
+    border-bottom: 1px solid rgb(228, 228, 228);
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.services--section .services__content-box .design--process .process__step h4 {
+    color: rgb(110, 110, 110);
+}
+
+.services--section .services__content-box .design--process .process__step ul li {
+    list-style: none;
+    color: rgb(88, 88, 88);
+}
+
+.services--section .services__content-box .design--process .process__step ul li span {
+    margin-right: .5rem;
+    color: rgb(1, 143, 199);
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.brand {
+    text-align: center;
+}
+
+.filters {
+    text-align: center;
+}
+
+.single-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.single-content img {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.single-content:hover img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.row.no-gutter [class*="col-"] {
+    margin: 0;
+    padding: 0;
+}
+
+.item-hover {
+    text-align: center;
+    padding: 50px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    z-index: 1;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+}
+
+.work-btn a:link,
+.work-btn a:visited {
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: rgb(0, 119, 255);
+    text-align: center;
+    color: white;
+    padding: 13px;
+}
+
+.work-btn a:hover {
+    background-color: #fff;
+    color: rgb(0, 119, 255);
+}
+
+.hover-content h4,
+.hover-content p {
+    color: #fff;
+    margin: 0;
+}
+
+.hover-content h4 {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.hover-content p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+
+.single-content:hover .item-hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+.hover-text {
+    position: relative;
+    top: -20px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.filter-button-group .btn:focus {
+    outline: none;
+}
+
+
+.services--section .services__content-box .services__recent-footer p {
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 2rem;
+    color: grey;
+}
+
+.services--section .services__content-mobile {
+    border: 1px solid rgb(231, 231, 231);
+    padding: 2rem;
+    color: rgb(94, 94, 94);
+}
+
+.services--section .services__content-mobile h4 {
+    font-size: 2rem;
+    color: rgb(68, 68, 68);
+}
+
+.services--section .services__content-mobile p {
+    font-size: 1rem;
+}
+
+.services--section .all__apps-collapse {
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.services--section .services__list-group .services__list-group-item {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.services--section .all__apps-collapse #tab1 .services__list-group .list-group-item-action.active {
+    background-color: rgb(1, 143, 199);
+}
+
+.services--section .all__apps-collapse .tab-content h4 {
+    font-size: 1.8rem;
+
+    font-weight: 600;
+}
+
+.services--section .all__apps-collapse .tab-content p {
+    font-size: 1.1rem;
+    word-spacing: .1rem;
+    font-weight: 400;
+    color: rgb(63, 63, 63);
+    text-align: justify;
+}
+
+.services--section .all__apps-collapse .tab-pane .tab__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.services--section .scalable__apps {
+    padding-top: 3rem;
+    border-top: 1px solid rgb(212, 212, 212);
+}
+
+.services--section .scalable__apps .scalable__content {
+    padding-top: 1rem;
+}
+
+.services--section .scalable__apps .scalable__content:first-child {
+    padding-bottom: 1rem;
+}
+
+.services--section .scalable__apps .scalable__content h4 {
+    font-size: 1.8rem;
+    color: rgb(95, 95, 95);
+
+}
+
+.services--section .scalable__apps .scalable__content p {
+    font-size: 1rem;
+    color: grey;
+}
+
+.services--section .choose--reason {
+    margin-top: 4rem
+}
+
+.services--section .choose--reason .choose--reason-heading,
+.services--section .choose--reason .choose--reason--sub {
+    text-align: center;
+}
+
+.services--section .choose--reason .choose--reason-heading {
+    font-size: 1.9rem;
+    color: rgb(77, 77, 77);
+}
+
+.services--section .choose--reason .choose--reason--sub {
+    font-size: 1.4rem;
+    color: rgb(119, 119, 119);
+    padding-bottom: 3rem;
+}
+
+.services--section .choose--reason .row {
+    margin-bottom: 1.8rem;
+}
+
+.services--section .choose--reason .choose__partners {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.services--section .choose--reason .choose__partners p {
+    margin-right: 1rem;
+}
+
+.services--section .choose--reason .choose__partners p:last-child {
+    font-size: 1.4rem;
+    color: rgb(99, 99, 99);
+    font-weight: 600;
+}
+
+.services--section .choose--reason .choose__partners span i {
+    background-color: rgb(1, 143, 199);
+    color: white;
+    font-size: 1.4rem;
+    padding: 1.7rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+}
+
+.services--section .choose--reason .choose__parterns_info p {
+    font-size: 1.3rem;
+    color: rgb(95, 95, 95);
+}
+
+
+.services--section .mobile__solutions {
+    margin-top: 3rem;
+}
+
+.services--section .mobile__solutions h4 {
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+    color: rgb(87, 87, 87);
+}
+
+.services--section .mobile__solutions p {
+    font-size: 1rem;
+    padding-bottom: 1.5rem;
+    color: rgb(112, 112, 112);
+}
+
+.services--section .development__approach h4 {
+    font-size: 1.9rem;
+    color: rgb(61, 61, 61);
+    padding-bottom: 1.8rem;
+}
+
+.services--section .development__approach p {
+    color: rgb(68, 68, 68);
+}
+
+.services--section .development__approach p span {
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+}
+
+.services--section .development__approach .col-md-6:last-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.services--section .ecommerce--content .ecommerce__content-info-text {
+    font-size: 1.3rem;
+    word-spacing: .1rem;
+    line-height: 2.4rem;
+    color: rgb(58, 58, 58);
+
+}
+
+.services--section .ecommerce--content .ecommerce__content-info-text span {
+    color: rgb(150, 24, 24);
+    font-weight: bold;
+}
+
+.services--section .ecommerce--content .ecommerce__content-info-text a:link,
+.services--section .ecommerce--content .ecommerce__content-info-text a:visited {
+    text-decoration: none;
+}
+
+.services--section .ecommerce--content .ecommerce__content-info-text a {
+    font-size: 1rem;
+    font-size: 1.2rem;
+}
+
+.services--section .ecomerce--technologies {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.services--section .technologies__info-text p,
+.services--section .technologies__info p {
+    font-size: 1.3rem;
+
+}
+
+.services--section .technologies__info {
+    margin-top: 3rem;
+}
+
+.services--section .ecommerce__technologies-elements {
+    margin-top: 3rem;
+}
+
+.services--section .ecommerce__technologies-elements .card-deck .card-body {
+    border-top: 1px solid rgb(219, 219, 219);
+}
+
+.services--section .ecommerce__technologies-elements .card-deck .card-text {
+    font-size: 1.2rem;
+    text-align: justify;
+    color: rgb(53, 53, 53);
+}
+
+.services--section .ecommerce__technologies-elements .card-deck .card {
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 13px;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+    padding-bottom: 3rem;
+    border-color: rgba(0, 145, 189, 0.596);
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+}
+
+.services--section .ecommerce__technologies-elements .card-deck .card:hover {
+    -webkit-box-shadow: 0 0 25px -1px rgb(200, 224, 231);
+    box-shadow: 0 0 25px -1px rgb(200, 224, 231);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.services--section .ecommerce__trust .trust__info-text p {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    color: rgb(65, 65, 65);
+}
+
+.services--section .ecommerce__trust ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin-bottom: 1rem;
+    border-bottom: 1px dashed grey;
+
+}
+
+.services--section .ecommerce__trust ul li p:first-child {
+    margin-right: .5rem;
+    color: rgb(42, 185, 66);
+}
+
+.services--section .ecommerce__trust ul li p {
+    font-size: 1.2rem;
+    color: rgb(53, 53, 53);
+}
+
+.services--section .ecommerce__feature-list {
+    margin: 4rem 0;
+
+}
+
+.services--section .ecommerce__feature-list ul li {
+    list-style: none;
+    font-size: 1.1rem;
+    margin-bottom: .6rem;
+}
+
+
+.services--section .ecommerce__feature-list ul li span {
+    margin-right: .6rem;
+    color: rgb(0, 119, 255);
+}
+
+.services--section .ecommerce__feature-list .ecommerce__features-content {
+    padding-bottom: 2rem;
+}
+
+.services--section .ecommerce__feature-list .ecommerce__features-content h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: rgb(0, 97, 153);
+}
+
+.services--section .ecommerce__feature-list .check__portfolio-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    border-top: 1px solid rgb(223, 223, 223);
+    padding: 2rem 0;
+}
+
+
+.services--section .ecommerce__feature-list .check__portfolio-btn span a {
+    background-color: rgb(1, 143, 199);
+    padding: .7rem 2rem;
+    color: rgb(228, 238, 241);
+    font-weight: bold;
+    font-size: 1.12rem;
+}
+
+
+.services--section .ecommerce__feature-list .check__portfolio-btn span a i {
+    margin-right: .5rem;
+}
+
+.services--section .best__company .best__company-info-text {
+    color: rgb(59, 59, 59);
+}
+
+.services--section .best__company .best__company-info-text p:not(:nth-child(5)) {
+    font-size: 1.3rem;
+    word-spacing: .1rem;
+}
+
+.services--section .best__company .best__company-info-text p:nth-child(5) {
+    font-size: 1.1rem;
+}
+
+.services--section .services__seo-consultancy {
+    margin-top: 3rem;
+}
+
+.services--section .services__seo-consultancy p {
+    font-size: 1.1rem;
+}
+
+.services--section .services__seo-consultancy .seo-text-following {
+    font-size: 1.5rem;
+    color: red;
+    font-weight: bold;
+}
+
+.services--section .services__seo-consultancy h4 {
+    font-size: 2.1rem;
+    color: rgb(51, 51, 51);
+}
+
+.services--section .services__seo-consultancy h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.services--section .services__seo-consultancy ul li {
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+.services--section .services__seo-consultancy ul li i {
+    margin-right: .6rem;
+    font-size: .8rem;
+    color: rgb(0, 133, 22);
+    font-weight: bold;
+}
+
+.services--section .services__seo-consultancy .services__content--info-text {
+    margin-top: 3rem;
+}
+
+.services--section .services__seo-consultancy .services__content--info-text p {
+    font-size: 1.8rem;
+
+}
+
+.services--section .services__seo-consultancy .services__content--info-text p:last-child {
+    text-align: center;
+}
+
+.services--section .services__seo-consultancy .services__content--info-text p:last-child i {
+    color: rgb(202, 0, 0);
+    font-size: 1.7rem;
+}
+
+.services--section .services__seo-consultancy .services__content--info-text a:link {
+    color: rgb(43, 43, 43);
+    font-size: 1.6rem;
+}
+
+.services--section .guarantee--tag {
+    margin-top: 3rem;
+}
+
+.services--section .services__design-content {
+    margin-top: 2.4rem;
+    text-align: justify;
+
+}
+
+.services--section .services__design-content .design--type h3 {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 145, 189, 0.8)), to(rgba(11, 196, 42, 0.6)));
+    background: linear-gradient(to right, rgba(0, 145, 189, 0.8), rgba(11, 196, 42, 0.6));
+    margin-bottom: 1rem;
+    padding: .3rem .5rem;
+    color: rgb(241, 241, 241);
+}
+
+.services--section .theme--features {
+    margin-top: 2rem;
+}
+
+.services--section .theme--features h4 {
+    margin-bottom: 1.1rem;
+
+}
+
+.services--section .theme--features h4 span:first-child {
+    font-size: 1.5rem;
+    margin-right: .3rem;
+    color: rgb(26, 128, 41);
+}
+
+.services--section .theme--features h4 span:last-child {
+    font-size: 1.6rem;
+    color: rgb(43, 43, 43);
+}
+
+.services--section .theme--features .theme--features-info-text ul li {
+    list-style: none;
+    margin-bottom: .4rem;
+    font-size: 1.2rem;
+}
+
+.services--section .theme--features .theme--features-info-text ul li span {
+    margin-right: .4rem;
+    color: rgb(0, 117, 153);
+    font-weight: bold;
+}
+
+.services--section .services__offered-services,
+.services--section .services__industries {
+    margin-top: 5rem;
+}
+
+.heading--sub {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.services--section .services__offered-services .offered__heading,
+.services--section .services__industries .industries__heading {
+    font-size: 2.5rem;
+
+}
+
+.services--section .services__offered-services .offered__heading::after,
+.services--section .services__industries .industries__heading::after {
+    content: "";
+    display: block;
+    width: 7rem;
+    height: .3rem;
+    margin: .3rem 0;
+    background-color: rgba(0, 145, 189);
+}
+
+.services--section .services__offered-services .offered--info,
+.services--section .services__industries .industries--info {
+    margin-top: 1.5rem;
+}
+
+.services--section .services__offered-services .offered--info ul li,
+.services--section .services__industries .industries--info ul li {
+    list-style: none;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+}
+
+.services--section .services__offered-services .offered--info ul li span,
+.services--section .services__industries .industries--info ul li span {
+    margin-right: .5rem;
+    color: rgb(15, 101, 201);
+}
+
+.services--section .company__use-technology {
+    margin-top: 4rem;
+}
+
+.services--section .company__use-technology .company__tech-content--box {
+    margin-top: 2rem;
+}
+
+.services--section .company__use-technology .company__tech-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.services--section .company__worked-with {
+    margin-top: 8rem;
+}
+
+.services--section .company__worked-with .worked_company_content-box {
+    margin-top: 3rem;
+}
+
+.services--section .order__project-message {
+    margin-top: 5rem;
+    background-color: rgba(5, 121, 24, 0.699);
+    padding: 1.6rem 0;
+}
+
+.services--section .order__project-message .project__message-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.services--section .order__project-message .project__message-content h5 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-transform: capitalize;
+
+}
+
+.services--section .order__project-message .project__message-content p {
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+}
+
+.services--section .order__project-message .project__message-content .message__content:last-child p a {
+    border: 3px solid white;
+    padding: .9rem 1.4rem;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+}
+
+.services--section .order__project-message .project__message-content p a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.services--section .order__project-message .project__message-content p a:hover {
+    background-color: white;
+    color: rgb(0, 41, 88);
+}
+
+.services--section .services__content--box .cctv--img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+.services--section .package__exclude span:first-child {
+    font-weight: 600;
+
+}
+
+.services--section .package__exclude span {
+    font-size: 1.2rem;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+.services--section .service__cctv-packages table th {
+    font-size: 1.5rem;
+}
+
+.services--section .service__cctv-packages table tr td:first-child {
+    font-weight: bold;
+    text-align: left;
+}
+
+.services--section .service__cctv-packages table tr td {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.services--section .service__cctv-packages table tbody tr:hover {
+    background-color: rgba(136, 240, 153, 0.336);
+}
+
+.services--section .services__cctv-payment-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.services--section .cctv__package-box {
+    border-bottom: 1px solid rgb(231, 231, 231);
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.services--section .cctv__package-box h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    color: rgb(15, 101, 201);
+}
+
+.services--section .cctv__package-box ul li {
+    list-style: none;
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+}
+
+.services--section .cctv__package-box ul li span {
+    margin-right: .4rem;
+    color: rgb(61, 61, 61);
+    font-weight: bold;
+}
+
+.services--section .cctv__package-box p {
+    margin-top: 1rem;
+    text-align: justify;
+    letter-spacing: .1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(37, 37, 37);
+}
+
+.services--section .cctv__package-box p span {
+    font-weight: bold;
+}
+
+.services--section .ip__camera-packages h4 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.services--section .ip__camera-packages table tr th {
+    font-size: 1.2rem;
+}
+
+.services--section .ip__camera-packages table tr td {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
