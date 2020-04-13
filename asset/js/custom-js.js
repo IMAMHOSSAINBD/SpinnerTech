@@ -15,6 +15,27 @@ var typedTwo = new Typed(".typeTwo", {
 
 
 
+$("#testimonial-carousel").owlCarousel({
+    loop: !0,
+    items: 2,
+    margin: 50,
+    autoplay: !0,
+    nav: !0,
+    navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"],
+    responsive: {
+        0: {
+            items: 1
+        },
+        767: {
+            items: 2
+        },
+        1000: {
+            items: 2
+        }
+    }
+});
+
+
 // Leader owl carousel
 var owl = $('.leader-carousel');
 owl.owlCarousel({
@@ -61,7 +82,7 @@ $('.partner-carousel').owlCarousel({
         0: {
             items: 1
         },
-        600: {
+        767: {
             items: 2
         },
         1000: {
@@ -89,7 +110,7 @@ $('.client-carousel').owlCarousel({
         0: {
             items: 1
         },
-        600: {
+        767: {
             items: 3
         },
         1000: {

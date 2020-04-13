@@ -900,6 +900,25 @@ form .btn-submit {
     transform: translateY(-35%);
 }
 
+.portfolio .element-item .imgText h6 {
+    color: white;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+.portfolio .element-item .imgText a {
+    color: white;
+    text-decoration: none;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+.portfolio .element-item .imgText a:hover,
+.portfolio .element-item .imgText h6:hover {
+    color: #1dd758;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
 
 
 /*--------------------------------*/
@@ -968,8 +987,13 @@ form .btn-submit {
     font-size: .8rem;
     color: white;
     padding: 1.5rem 0 1rem 0;
-    border-bottom: 3px solid #1EA4D9;
 
+
+}
+
+.footer-section .container {
+    border-bottom: 1px solid gray;
+    padding-bottom: 1rem;
 }
 
 .footer-section ul li {
@@ -993,6 +1017,67 @@ form .btn-submit {
 
 .footer-title {
     color: #1EA4D9;
+}
+
+
+/*-------------------------------------*/
+/*-- Style for Footer bottom Section-- */
+/*-------------------------------------*/
+
+
+.footer-bottom {
+    background: #353648;
+    border-bottom: 3px solid #1EA4D9;
+    color: white;
+    padding: .5rem 0;
+}
+
+
+
+.footer-bottom ul li span {
+    color: #1EA4D9;
+}
+
+.footer-bottom ul li a {
+    color: white;
+    text-decoration: none;
+    padding: .5rem;
+}
+
+@media (max-width: 1199px) {
+    .footer-bottom ul li a {
+        font-size: .6rem;
+    }
+
+
+
+
+}
+
+@media (min-width: 768px) {
+    .footer-bottom ul {
+        padding-top: 1rem;
+    }
+
+
+
+}
+
+@media (max-width: 768px) {
+    .footer-bottom ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .footer-bottom .col-md-2 img {
+        margin: auto;
+        width: 100%;
+    }
+
+
+
 }
 
 .copyright {
@@ -1267,8 +1352,45 @@ form .btn-submit {
     padding: 2rem 0;
 }
 
-.tz-gallery img {
-    padding: .5rem 0;
+.gallery-container .imageBox {
+    position: relative;
+    margin: 1rem 0;
+}
+
+.gallery-container .imageBox .imgText {
+    display: none;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+
+
+}
+
+.gallery-container .imageBox:hover img {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    -webkit-box-shadow: 5px 5px 10px 0 gray;
+    box-shadow: 5px 5px 10px 0 gray;
+    border-radius: 10px;
+}
+
+
+
+.gallery-container .imageBox:hover .imgText {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: .5rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    text-align: center;
+    color: white;
 }
 
 
@@ -1503,11 +1625,16 @@ form .btn-submit {
 
 }
 
+.team h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .team .img-div .photo {
     border-radius: 100%;
     padding: 1rem;
-    width: 90%;
-    height: 50%;
+    width: 200px;
+    height: 200px;
 }
 
 .team .wrapper {
@@ -1544,6 +1671,30 @@ form .btn-submit {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+
+
+@media (max-width: 991px) {
+    .team h5 {
+        font-size: .7rem;
+    }
+
+    .team .body-div p {
+        font-size: .6rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .team h5 {
+        font-size: 1.25rem;
+    }
+
+    .team .body-div p {
+        font-size: 1rem;
+    }
+}
+
+
 
 /*--------------------------------*/
 /*--- Happy Client Page ---- */
@@ -1602,6 +1753,11 @@ form .btn-submit {
     height: 40vh;
     padding-bottom: 8rem;
     position: relative;
+}
+
+
+.profile-content .table td {
+    text-align: left;
 }
 
 @media (max-width: 354px) {
@@ -1753,6 +1909,10 @@ form .btn-submit {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+    }
+
+    .contact-body .nav-tabs .nav-item .nav-link {
+        font-size: 1.7rem;
     }
 }
 
@@ -3327,4 +3487,207 @@ td {
 .services--section .ip__camera-packages table tr td {
     font-size: 1.1rem;
     font-weight: 500;
+}
+
+
+/* =====================================================================================================================================*/
+
+
+/*---------------------------------------------*/
+/*--------- Terms & Condition Page -------- */
+/*---------------------------------------------*/
+
+.terms-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/terms-condition.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/terms-condition.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+
+
+
+
+/*---------------------------------------------*/
+/*--------- Faq Page -------- */
+/*---------------------------------------------*/
+
+.faq-banner {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/faq.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/faq.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+
+
+
+/* ------------------------Isotop CSS ---------------------------------*/
+
+
+
+
+/* ---- button ---- */
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1.0em;
+    background: #EEE;
+    border: none;
+    border-radius: 7px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 0%, 0)), to(hsla(0, 0%, 0%, 0.2)));
+    background-image: linear-gradient(to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2));
+    color: #222;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-shadow: 0 1px white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #8CF;
+    text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+    color: #222;
+}
+
+.button:active,
+.button.is-checked {
+    background-color: #28F;
+}
+
+.button.is-checked {
+    color: white;
+    text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+    -webkit-box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+    box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group {
+    margin-bottom: 20px;
+
+}
+
+
+.button-group:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.button-group .button {
+    margin: .2rem 1px;
+}
+
+.button-group .button:first-child {
+    border-radius: 0.5em 0 0 0.5em;
+}
+
+.button-group .button:last-child {
+    border-radius: 0 0.5em 0.5em 0;
+}
+
+/* ---- isotope ---- */
+
+
+
+/* clear fix */
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ---- .element-item ---- */
+
+
+
+.element-item > * {
+    margin: 0;
+    padding: 0;
+}
+
+
+.element-item {
+    margin: 1rem 0;
+}
+
+
+
+
+
+/*---------------------------------------------*/
+/*--------- Client Review Section -------- */
+/*---------------------------------------------*/
+
+
+
+.client-review .testimonial-area .item {
+    background: #dfe6e9;
+    border-radius: 1rem;
+    padding: 2rem;
+    border: 2px solid #353648;
+}
+
+
+
+.client-review .testimonial-area .item .testimonial-box .client-img {
+    border-radius: 50%;
+    height: 20%;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: .3rem;
+    border: 2px solid gray;
+
+}
+
+.client-review .testimonial-area .item .testimonial-box h6 {
+    color: #353648;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+
+.client-review .testimonial-area .item .testi-text {
+    padding: 0 1rem 0 1rem;
+    text-align: justify;
+    color: #1EA4D9;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #353648;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    background: #1EA4D9;
+    margin: 0 .5rem;
+    border-radius: 5px;
+}
+
+.owl-carousel .owl-nav {
+    text-align: center;
+    margin-top: 2rem;
 }
