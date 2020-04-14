@@ -65,56 +65,99 @@ $('.leader-carousel').owlCarousel({
 
 // Partner owl carousel
 
-var owl = $('.partner-carousel');
-owl.owlCarousel({
-    items: 4,
-    loop: true,
-    margin: 2,
-    autoplay: true,
-    autoplayTimeout: 2000,
-    autoplayHoverPause: true
-});
+//var owl = $('.partner-carousel');
+//owl.owlCarousel({
+//    items: 4,
+//    loop: true,
+//    margin: 2,
+//    autoplay: true,
+//    autoplayTimeout: 2000,
+//    autoplayHoverPause: true
+//});
+//$('.partner-carousel').owlCarousel({
+//    loop: true,
+//    margin: 2,
+//    nav: true,
+//    responsive: {
+//        0: {
+//            items: 1
+//        },
+//        767: {
+//            items: 2
+//        },
+//        1000: {
+//            items: 3
+//        }
+//    }
+//})
+
 $('.partner-carousel').owlCarousel({
     loop: true,
-    margin: 2,
-    nav: true,
+    margin: 10,
+    nav: false,
+    autoplay: true,
     responsive: {
         0: {
-            items: 1
-        },
-        767: {
             items: 2
+
+        },
+        600: {
+            items: 3
+
         },
         1000: {
-            items: 3
+            items: 4
+
         }
     }
 })
 
 // Client owl carousel
 
-var owl = $('.client-carousel');
-owl.owlCarousel({
-    items: 4,
-    loop: true,
-    margin: 10,
-    autoplay: true,
-    autoplayTimeout: 2500,
-    autoplayHoverPause: true
-});
+//var owl = $('.client-carousel');
+//owl.owlCarousel({
+//    items: 4,
+//    loop: true,
+//    margin: 10,
+//    autoplay: true,
+//    autoplayTimeout: 2500,
+//    autoplayHoverPause: true
+//});
+//$('.client-carousel').owlCarousel({
+//    loop: true,
+//    margin: 10,
+//    nav: true,
+//    responsive: {
+//        0: {
+//            items: 1
+//        },
+//        767: {
+//            items: 2
+//        },
+//        1000: {
+//            items: 3
+//        }
+//    }
+//})
+
+
 $('.client-carousel').owlCarousel({
     loop: true,
     margin: 10,
-    nav: true,
+    nav: false,
+    autoplay: true,
     responsive: {
         0: {
-            items: 1
+            items: 2
+
         },
-        767: {
+        600: {
             items: 3
+
         },
         1000: {
-            items: 5
+            items: 4
+
         }
     }
 })

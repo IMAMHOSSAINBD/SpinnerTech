@@ -921,6 +921,7 @@ form .btn-submit {
 }
 
 
+
 /*--------------------------------*/
 /*-- Style for Leader Section-- */
 /*--------------------------------*/
@@ -1063,17 +1064,24 @@ form .btn-submit {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .footer-bottom ul {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+
+    }
+
+    .footer-bottom ul li a {
+        font-size: 1.6rem;
     }
 
     .footer-bottom .col-md-2 img {
         margin: auto;
         width: 100%;
+        text-align: center;
+        padding: 0 5rem;
     }
 
 
@@ -2290,13 +2298,19 @@ form .btn-submit {
     color: rgb(94, 94, 94);
 }
 
+
 .services--section .services__content-box {
-    margin-top: 4rem;
+    margin-top: 2rem;
 
 }
 
 .services--section .services__content-box .menu--links {
     margin-bottom: 3rem;
+}
+
+
+.services--section .works-tittle h3 {
+    color: #1EA4D9;
 }
 
 .services--section .services__content-box .menu--links .menu__content {
@@ -2702,6 +2716,9 @@ a {
 .single-content {
     position: relative;
     overflow: hidden;
+    margin: .5rem;
+    border-radius: 10px;
+    border: 1px solid gray;
 }
 
 .single-content img {
@@ -2737,8 +2754,8 @@ a {
     transition: 0.6s;
 }
 
-.work-btn a:link,
-.work-btn a:visited {
+.work-btn .work-link:link,
+.work-btn .work-link:visited {
     text-decoration: none;
     border-radius: 50%;
     background-color: rgb(0, 119, 255);
