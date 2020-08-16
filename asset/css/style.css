@@ -28,6 +28,49 @@ body {
 /*-- Reusable Componant-- */
 /*--------------------------------*/
 
+/* -- Color Palette */
+
+.text-blue {
+    color: #1D9CD7;
+}
+
+.text-green {
+    color: #1DD7B5;
+}
+
+.text-dark {
+    color: #232330;
+}
+
+.text-lightDark {
+    color: #353648;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.bg-blue {
+    background-color: #1D9CD7;
+}
+
+.bg-green {
+    background-color: #1DD7B5;
+}
+
+.bg-dark {
+    background-color: #232330;
+}
+
+.bg-lightDark {
+    background-color: #353648;
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+}
+
+
 
 .logo-color {
     color: #179AD6;
@@ -925,8 +968,17 @@ form .btn-submit {
 /*--------------------------------*/
 /*-- Style for Leader Section-- */
 /*--------------------------------*/
+
+
 .leader-section {
     padding: 4rem 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/training/TrainingLeaderbg.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/training/TrainingLeaderbg.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
 
 }
 
@@ -934,7 +986,17 @@ form .btn-submit {
     width: 80%;
     margin: auto;
     border: 1px solid #1EA4D9;
+    border-radius: 10px;
     padding: 2rem;
+    color: white;
+    background: rgb(28, 156, 215);
+    background: linear-gradient(135deg, rgba(28, 156, 215, 1) 0%, rgba(79, 89, 112, 1) 100%);
+}
+
+.leader-section .item img {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 /*--------------------------------*/
@@ -3707,4 +3769,107 @@ td {
 .owl-carousel .owl-nav {
     text-align: center;
     margin-top: 2rem;
+}
+
+
+/*------------------------Training Subdomain Pages ----------------*/
+
+
+/*---------------------------------------------*/
+/*--------- Training Index Page -------- */
+/*---------------------------------------------*/
+
+.courseINbottom {
+    margin-top: -50px;
+    position: relative;
+
+}
+
+.trainingFeatures {
+    background: white;
+    border-radius: 10px;
+}
+
+.trainingFeaturesDiv {
+    padding: 1.5rem;
+    margin: .5rem;
+    border-bottom: 1px solid white;
+
+}
+
+.trainingFeaturesDiv:hover {
+    -webkit-box-shadow: 10px 10px 10px gray;
+    box-shadow: 5px 5px 10x 5px gray;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    border-bottom: 1px solid #1DD7B5;
+    border-radius: 10px;
+
+}
+
+.trainingFeaturesDiv .feature-tittle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+
+
+.facilitiesDiv {
+    padding: .5rem;
+    background-color: #353648;
+    color: white;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    border: 2px solid #353648;
+}
+
+.facilitiesDiv div img {
+    width: 30%;
+    margin-bottom: .5rem;
+}
+
+
+.facilitiesDiv:hover {
+    -webkit-transform: translatey(-5px);
+    transform: translatey(-5px);
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    border: 2px solid #1D9CD7;
+    -webkit-box-shadow: 5px 5px 10x 5px gray;
+    box-shadow: 2px 2px 5px gray;
+}
+
+
+
+.Training-leader-section {
+    padding: 4rem 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, .7)), to(rgba(29, 29, 29, .7))), url(../img/training/TrainingLeaderbg.jpg);
+    background: linear-gradient(rgba(29, 29, 29, .7), rgba(29, 29, 29, .7)), url(../img/training/TrainingLeaderbg.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+
+}
+
+.Training-leader-section .item {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #1EA4D9;
+    border-radius: 10px;
+    padding: 2rem;
+    color: white;
+    background: rgb(28, 156, 215);
+    background: linear-gradient(135deg, rgba(28, 156, 215, 1) 0%, rgba(79, 89, 112, 1) 100%);
+}
+
+.Training-leader-section .item img {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }

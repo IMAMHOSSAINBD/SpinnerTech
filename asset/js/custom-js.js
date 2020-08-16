@@ -63,6 +63,8 @@ $('.leader-carousel').owlCarousel({
     }
 })
 
+
+
 // Partner owl carousel
 
 //var owl = $('.partner-carousel');
@@ -110,7 +112,7 @@ $('.partner-carousel').owlCarousel({
 
         }
     }
-})
+});
 
 // Client owl carousel
 
