@@ -38,8 +38,9 @@ body {
     color: #1DD7B5;
 }
 
-.text-dark {
-    color: #232330;
+.text-dark,
+.text-black {
+    color: #232330 !important;
 }
 
 .text-lightDark {
@@ -3872,4 +3873,110 @@ td {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+
+.courseDes .relatedCourse ul li {
+    padding: .5rem 0.3rem;
+}
+
+
+.courseDes .relatedCourse ul li a {
+    text-decoration: none;
+    color: #232330;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+
+}
+
+.courseDes .relatedCourse ul li:hover a {
+    color: #1DD7B5;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+
+
+.courseDes .relatedCourse ul li a i {
+    color: #353648;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+.courseDes .relatedCourse ul li:hover a i {
+    font-size: 1.5rem;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+.tittleCourse {
+    color: #1D9CD7;
+
+}
+
+.tittleCourse::after {
+    content: " ";
+    margin-top: .3rem;
+    width: 4rem;
+    height: .2rem;
+    background: #353648;
+    display: block;
+
+}
+
+.courseFullDes ul li {
+    padding: .3rem;
+}
+
+
+
+.getAdd-btn:hover {
+    color: white;
+}
+
+@-webkit-keyframes btnanim {
+    0% {
+        background-color: #1D9CD7;
+
+
+    }
+
+    50% {
+        background-color: #353648;
+
+    }
+
+    100% {
+        background-color: #1DD7B5;
+
+    }
+
+}
+
+@keyframes btnanim {
+    0% {
+        background-color: #1D9CD7;
+
+    }
+
+    50% {
+        background-color: #353648;
+
+    }
+
+    100% {
+        background-color: #1DD7B5;
+
+    }
+
+}
+
+
+.getAdd-btn {
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    -webkit-animation: btnanim 5s infinite;
+    animation: btnanim 5000ms infinite;
+    transition: 1s all;
+
 }
